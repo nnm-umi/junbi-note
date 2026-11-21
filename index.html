@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>準備ノート</title>
+<meta name="theme-color" content="#f8faf8">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="準備ノート">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="icons/icon-192.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="shell">
+  <main id="app"></main>
+  <div id="fabslot"></div>
+  <nav id="nav" aria-label="メニュー"></nav>
+</div>
+<div id="sheet" role="dialog" aria-modal="true"></div>
+<div id="toast" role="status"></div>
+<input id="importfile" type="file" accept=".json,application/json" hidden>
+<script src="app.js"></script>
+</body>
+</html>
